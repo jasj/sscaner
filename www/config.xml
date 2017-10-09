@@ -39,7 +39,7 @@
 
     <!-- Core plugins -->
 
-    <gap:plugin name="npm install pdf417-phonegap" source="npm" />
+    <gap:plugin name="pdf417-phonegap" source="npm" />
 
     <!-- Pushwoosh plugin -->
     <gap:plugin name="pushwoosh-pgb-plugin" source="npm" />
