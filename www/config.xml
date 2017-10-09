@@ -81,7 +81,13 @@
         Otherwise, you can specify specific domains:
     -->
 
-    <access origin="*"/>
+
+
+    <access origin="*" />
+	<allow-intent href="http://*/*" />
+	<allow-intent href="https://*/*" />
+	<allow-navigation href="http://*/*" />
+	<allow-navigation href="https://*/*" />
 
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
